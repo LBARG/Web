@@ -6,7 +6,7 @@ Overview
 
 This repository contains a variety of web development projects, including:
 
-    Static HTML and CSS websites
+   Static HTML and CSS websites
    Dynamic websites using JavaScript
 
 Instructions
