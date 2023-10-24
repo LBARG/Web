@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario de Inscripción</title>
+</head>
+<style type="text/css">
+
+body{
+    margin-left: 250px; ;
+    margin-right:250px ;
+}
+
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+th,td
+{
+	border: 1.5px solid rgb(49, 14, 250);
+	text-align: left;
+	background-color: skyblue;
+}
+#TituloP
+{
+	background-color: white;
+	color: brown;
+	border-style: double;
+	border-color: blue;
+	text-align: center;
+	font-size: x-large;
+}
+
+#Titulo
+{
+	background-color: lightskyblue;
+	text-align: left;
+	border-style: double;
+	border-color: blue;
+	margin-top: 5px;
+	font-weight: bolder;
+}
+
+#table1
+{
+	border-style: double;
+	border-color: blue;
+	margin-top: 5px;
+}
+
+input[type=text]
+{
+	width: 98%;
+}
+</style>
+<body>
+	
+		<div id="TituloP">	
+		<caption>FORMULARIO DE INSCRIPCIÓN</caption>
+		</div>
+		<div id="Titulo">
+			<p>DATOS PERSONALES</p>
+		</div>
+
+		<div id="table1">
+		<form>
+		<table>
+		<tr>
+			<td>Nombre</td>
+			<td>
+				
+				<input type="text" name="nombre" size="40" placeholder="Haga click aquí para escribir texto">
+
+			</td>
+		</tr>
+		<tr>
+			<td>Apellido</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+		<tr>
+			<td>Dirección</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+		<tr>
+			<td>Teléfono</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+		<tr>
+			<td>Correo Electrónico</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></tr>
+		<tr>
+			<td>Documento</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></tr>
+		<tr>
+			<td>Fecha de Nacimiento</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+		</table>
+		</div>
+		<div id="Titulo">
+			<p>CAPACITACIÓN</p>
+		</div>
+		<div id="table1">
+		<form>
+		<table>
+		<tr>
+			<td>Curso</td>
+			<td>
+			<input list="cursos" name="cursos" placeholder="Elija un curso">
+			<datalist id="cursos">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</datalist>
+			</td>
+			<td colspan="6">Días</td>
+		</tr>
+		<tr>
+			<td>Horario</td>
+			<td colspan="1" style="background-color: white;">Elija un horario</td>
+			<td colspan="1" style="background-color: white;"><input type="checkbox" id="Lunes" value="Lunes"> Lunes</td>
+			<td colspan="1" style="background-color: white;"><input type="checkbox" id="Martes" value="Martes">Martes</td>
+			<td style="background-color: white;"><input type="checkbox" id="Mier" value="Mier">Miércoles</td>
+			<td style="background-color: white;"><input type="checkbox" id="Jueves" value="Jueves">Jueves</td>
+			<td style="background-color: white;"><input type="checkbox" id="Viernes" value="Viernes">Viernes</td>
+			<td style="background-color: white;"><input type="checkbox" id="Sabado" value="Sabado">Sábado</td>
+		</tr>
+	</table>
+</form>
+</div>
+<div id="Titulo">
+		<p><ul style="list-style-type: square;"> <li>PLAN DE PAGO</li> </ul></p>
+</div>
+<div id="table1">
+	<form>
+		<table>
+		<tr>
+			<td style="background-color: white; text-align: center;"><input type="radio" name="selec"></td>
+			<td>Contado</td>
+			<td colspan="6" style="background-color: white;">Moneda</td>
+		</tr>
+		<tr>
+			<td style="background-color: white; text-align: center;"><input type="radio" name="selec"></td>
+			<td>Crédito</td>
+			<td colspan="6" style="background-color: white;">Tarjeta</td>
+		</tr>
+	</table>
+	</form>
+	</div>
+	<div id="Titulo">
+			<p>DATOS DE LA INSTITUCIÓN</p>
+	</div>
+	<div id="table1">
+		<form>
+			<table>
+		<tr>
+			<td>N° de contrato</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+		<tr>
+			<td>Persona que atendió</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+		<tr>
+			<td>Fecha de inscripción</td>
+			<td><input type="text" name="apellido" size="40" placeholder="Haga click aquí para escribir texto"></td>
+		</tr>
+	</table>
+	</form>
+	</div>
+
+</body>
+</html>
