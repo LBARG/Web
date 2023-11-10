@@ -1,0 +1,35 @@
+<!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***24/10/23--><!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***17/10/23-->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>
+        function alertOp()
+        {
+            var x = document.getElementById("fruits").selectedIndex; 
+            
+            if(x == 0)
+            {
+                alert("Hola");
+            }
+            else
+            {
+                alert("Bienvenido")
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <form>
+        Fruits:
+        <select id="fruits">
+            <option>Platano</option>
+            <option>Manzana</option>
+        </select>
+        <input type="button" onclick="alertOp()" value="Switch">
+    </form>
+</body>
+</html>
+<!--LBARG-->

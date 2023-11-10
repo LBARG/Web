@@ -1,0 +1,28 @@
+<!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***24/10/23--><!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***17/10/23-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>
+        function isKeyPressed(event)
+        {
+            var text = "The shift key was NOT pressed!";
+            if(event.shiftKey == 1)
+            {
+                text = "The shift key was pressed!"
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+</head>
+<body onmousedown="isKeyPressed(event)">
+
+    <p>Click on this paragraph. An alert box will tell you iif you pressed the shift key or not.</p>
+    <p id="demo"></p>
+</body>
+</html>
+<!--LBARG-->

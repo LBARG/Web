@@ -1,0 +1,30 @@
+<!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***24/10/23--><!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***17/10/23-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<h2>JavaScript HTML Events</h2>
+Enter your name: <input type="text" id="fname"
+onchange="upperCase()">
+
+<p>When you leave the input field, a function is triggered
+    wich transforms the input text to upper case.
+</p>
+
+<script>
+    function upperCase()
+    {
+        const x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+    }
+</script>
+
+</body>
+</html>
+<!--LBARG-->

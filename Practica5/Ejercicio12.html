@@ -1,0 +1,34 @@
+<!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***24/10/23--><!--Luis Bernardo Ambrosi Rincón Gallardo***2CV20***17/10/23-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>
+        function myFunction(e)
+        {
+            x = e.clientX;
+            y = e.clientY;
+            coor = "Coordinates: ("+x+","+y+")";
+            document.getElementById("demo").innerHTML = coor;
+
+        }
+        function clearCoor()
+        {
+            document.getElementById("demo").innerHTML="";
+        }
+    </script>
+</head>
+<body style="margin:0px;">
+
+    <div id="coordiv" style="width: 199px;height: 99px;border: 1px solid;" onmousemove="myFunction(event)" onmouseout="clearCoor"></div>
+    <p>Mouse over the rectangle above, and get the coordinates of your mouse pointer.</p>
+
+    <p id="demo"></p>
+
+</body>
+</html>
+<!--LBARG-->
